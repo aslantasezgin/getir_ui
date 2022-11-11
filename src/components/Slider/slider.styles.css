@@ -1,0 +1,118 @@
+.slider-img{
+    width: 100%;
+    background: url("https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-4.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.slider-img::after{
+    width: 100%;
+    height: 100%;
+    
+    background: linear-gradient( 90deg, #5d3ebc 0%, rgba(93,62,188,0) 100% );
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    content: "";
+}
+
+.slider-img .container-flex{
+    position: relative;
+    z-index: 300;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.slider-text{
+    position: relative;
+    top:-50px;
+    width: 22%;
+}
+
+.slider-text .slide-logo img{
+    width: 190px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.slider-text .slide-text{
+   position: relative;
+   top: 60px;
+}
+
+.slider-text .slide-text h2{
+    color: #fff;
+    font-size: 39px;
+    font-weight: 400;
+}
+
+.slider-form{
+    width: 78%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-content{
+    padding: 35px 30px 20px 30px;
+    background-color: #fff;
+    text-align: center;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.08);
+}
+
+.form-content p{
+    color: #5d3ebc;
+    position: relative;
+    top: -17px;
+    font-size: 17px;
+    font-weight: 800px!important;
+    margin-bottom: 0px;
+}
+
+.form-content form{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+form select{
+    width: 24%;
+    margin-right: 5px;
+    border: 2px solid #dfdee2;
+    border-radius: 5px;
+    padding: 16px 9px;
+    color: #88878C;
+}
+
+form input{
+    width: 74%;
+    border: 2px solid #dfdee2;
+    border-radius: 5px;
+    padding: 16px 14px;
+    font-size: 15px;
+    color: #88878C;
+    font-weight: 300;
+}
+
+form button{
+    width: 100%;
+    margin-top: 14px;
+    display: block;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 14px;
+  
+    text-align: center;
+    background-color: #FFD300;
+    color: #5d3ebc;
+}
