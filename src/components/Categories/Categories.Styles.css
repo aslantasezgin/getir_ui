@@ -2,6 +2,7 @@
     background-color: #fff;
     padding: 15px 0px;
     width: 100%;
+    box-shadow: rgb(88 63 181 / 8%) 0px 2px 16px;
 }
 
 .categories-title{
@@ -9,6 +10,7 @@
     padding: 10px 0px;
     position: relative;
     top: 0px;
+    
 }
 
 .categories-title h2{
