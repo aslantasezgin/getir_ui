@@ -1,0 +1,18 @@
+.campaigns{
+    background-color: #FAFAFA;
+    width: 100%;
+    padding: 20px 0px;
+    min-height: 300px;
+}
+
+.campaigns-title{
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+    top: 0px;
+}
+
+.campaigns-title h2{
+    font-weight: 400;
+    font-size: 16px;
+}

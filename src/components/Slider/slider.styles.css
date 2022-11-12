@@ -34,7 +34,7 @@
 .slider-text{
     position: relative;
     top:-50px;
-    width: 22%;
+    width: 23%;
 }
 
 .slider-text .slide-logo img{
@@ -56,7 +56,7 @@
 }
 
 .slider-form{
-    width: 78%;
+    width: 77%;
     display: flex;
     justify-content: flex-end;
 }
