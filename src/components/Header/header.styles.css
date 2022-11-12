@@ -2,6 +2,10 @@ header{
     background-color: #4C3398;
     width: 100%;
     padding: 14px 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 300;
 }
 
 
