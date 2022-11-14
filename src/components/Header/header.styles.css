@@ -80,3 +80,51 @@ header{
     font-size: 15px;
     font-weight: 400;
 }
+
+
+.bottom-logo{
+    display: none;
+}
+
+@media(max-width:700px){
+    
+    .container-flex{
+        width: 100%;
+    }
+    
+    header{
+        width: 100%;
+        position: inherit;
+    }
+
+    .nav-user{
+        display: none;
+    }
+
+    .nav-list ul li a {
+        color: #DCDCFF;
+        font-weight: 500;
+        padding: 10px 4px;
+        font-size: 14px;
+    }
+    
+    .nav-list{
+        width: 100%;
+    }
+
+    .bottom-logo{
+        display: flex;
+        width: 100%;
+        background-color: #5D3EBC;
+        padding: 10px 0px;
+        position: relative;
+        top: 13px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-logo img{
+        position: relative;
+        top: 4px;
+    }
+}

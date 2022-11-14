@@ -36,3 +36,23 @@
 .categorie-box:hover .categorie-title{
     color: #4C3398;
 }
+
+@media(max-width:700px){
+    .categorie-box {
+        width: 25%;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .categorie-img {
+        width: 80%;
+        margin: 0px auto;
+        border: 1px solid rgba(0,0,0,0.07);
+        border-radius: 14px;
+        overflow: hidden;
+    }
+}

@@ -32,3 +32,23 @@
 .info-text p{
     color: #697488;
 }
+
+
+@media(max-width:600px){
+    .info-box {
+        width: 100%;
+        margin: 4px 6px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        flex-wrap: wrap;
+        box-shadow: rgb(88 63 181 / 8%) 0px 2px 16px;
+        border-radius: 4px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+ 
+}

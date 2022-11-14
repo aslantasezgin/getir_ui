@@ -44,3 +44,25 @@ footer{
     background-color: #fff;
     border-top: 1px solid rgba(0,0,0,0.09);
 }
+
+@media(max-width:700px){
+    footer{
+        padding: 30px 10px 0px 10px;
+    }
+    .foot-list {
+        width: 100%;
+        text-align: left;
+        padding: 14px;
+    }
+
+    .qr-code img {
+        width: 90px;
+        position: relative;
+        left: 15px;
+    }
+
+    .footer-bottom{
+        background-color: #ddd;
+        padding: 15px 0px;
+    }
+}
